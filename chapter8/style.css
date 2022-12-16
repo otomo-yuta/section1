@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-item {
+  padding: 20px 0 20px 20px;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #808080;
+}
+
+.box {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 50px;
+}
+
+.box-item {
+  height: 200px;
+  width: 30%;
+  background-color: #ff0;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.box-item:nth-of-type(n+7) {
+  margin-bottom: 0;
+}
+
+.box-item:first-child,
+.box-item:nth-child(5),
+.box-item:last-child {
+  background-color: #ffa500;
+}
