@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.main-top {
+  height: 50px;
+  width: 100%;
+  background-color: #FF9A4B;
+}
+
+.main-content {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.flow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow-item {
+  width: 300px;
+  background-color: #EEE;
+  padding: 10px;
+  position: relative;
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #fff;
+}
+
+.flow-image {
+  width: 280px;
+}
+
+.flow-text {
+  margin-top: 15px;
+}
+
+.flow-text-title {
+  margin-bottom: 5px;
+}
+
+.flow-text p {
+  font-size: 12px;
+}
+
+.main-bottom {
+  height: 50px;
+  width: 100%;
+  background-color: #AAA;
+}
